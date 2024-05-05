@@ -2,19 +2,19 @@ const getAllJobs = (req, res) => {
   res.send("get all jobs");
 };
 
-const getJob = () => {
+const getJob = (req, res) => {
   res.send("get jobs");
 };
 
-const createJob = () => {
+const createJob = (req, res) => {
   res.send("create job");
 };
 
-const updateJob = () => {
+const updateJob = (req, res) => {
   res.send("update job");
 };
 
-const deleteJob = () => {
+const deleteJob = (req, res) => {
   res.send("delete job");
 };
 
